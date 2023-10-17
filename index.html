@@ -1,59 +1,63 @@
-/* Estilos globais */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-section {
-    margin: 20px;
-}
-
-/* Estilos específicos */
-#sobre {
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-#portfolio, #videos {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-#portfolio .projeto, #videos .video {
-    margin-bottom: 20px;
-}
-
-#portfolio .projeto img, #videos .video iframe {
-    max-width: 100%;
-}
-
-#contato {
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio de Agente Cultural</title>
+</head>
+<body>
+    <header>
+        <h1>Nome do Agente Cultural</h1>
+        <p>Agente Cultural | Artista | Produtor Cultural</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#videos">Vídeos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Insira uma breve descrição sobre você, sua experiência e sua paixão pelo mundo cultural.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Meu Portfólio</h2>
+        <div class="projeto">
+            <img src="imagem1.jpg" alt="Projeto 1">
+            <h3>Nome do Projeto 1</h3>
+            <p>Descrição do Projeto 1.</p>
+        </div>
+        <div class="projeto">
+            <img src="imagem2.jpg" alt="Projeto 2">
+            <h3>Nome do Projeto 2</h3>
+            <p>Descrição do Projeto 2.</p>
+        </div>
+        <!-- Adicione mais projetos conforme necessário -->
+    </section>
+    <section id="videos">
+        <h2>Vídeos</h2>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/seu_video_id1" frameborder="0" allowfullscreen></iframe>
+            <h3>Título do Vídeo 1</h3>
+            <p>Descrição do Vídeo 1.</p>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/seu_video_id2" frameborder="0" allowfullscreen></iframe>
+            <h3>Título do Vídeo 2</h3>
+            <p>Descrição do Vídeo 2.</p>
+        </div>
+        <!-- Adicione mais vídeos conforme necessário -->
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo em:</p>
+        <p>Email: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Seu Nome</p>
+    </footer>
+</body>
+</html>
