@@ -6,10 +6,12 @@ body {
 }
 
 header {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-image: url('imagem.png');
+    background-size: cover; /* Aumenta o tamanho da imagem de fundo para cobrir o cabeçalho */
+    background-position: center;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 50px; /* Adiciona espaçamento interno para melhor espaçamento */
+    color: #fff; /* Define a cor do texto para branco */
 }
 
 nav ul {
@@ -53,6 +55,10 @@ section {
 
 footer {
     text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
     background-color: #333;
     color: #fff;
     padding: 10px;
